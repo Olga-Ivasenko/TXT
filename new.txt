@@ -1,0 +1,10 @@
+Group: 27
+Speciality: QA manual
+Best Job Direction: API integration testing
+Salary Level: 1000
+First Name: Olga
+Second Name: Ivasenko
+My age: 49
+My Pet: Cat
+Pet Name: Baja
+Pet Age: 6
