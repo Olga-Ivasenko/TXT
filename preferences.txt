@@ -1,0 +1,9 @@
+
+ Favorite Movie1: Avatar
+ Favorite Movie2: The Lord of the Rings
+ Favorite Cast: Midsomer Murder
+ Favotite Book1: All creatures great and small
+ Favorite Book2: Cosmobioluhi
+ Favorite Meal: Lemon cookies
+ Favorite Month: May
+ Wish Country: New Zealand
