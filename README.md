@@ -34,7 +34,7 @@ curl -u YourGitHubName:YourTokinORYourPassword https://api.github.com/user/repos
 
 **2. Клонировать репозиторий TXT на локальный компьютер**
 - copy link of repository under `Code` button
-![Commit button](/C:/QA/KSENDZOV/HomeWorks/GITHUB/TXT/edit_picture5.jpg)
+![Commit button](https://github.com/Olga-Ivasenko/TXT/blob/394eeeac64ecadce6d2e6429a54dd567b9f39f9a/edit_picture5.jpg)
 - commands:
 ```bash
 cd MyDirectory	//where new project to be placed locally
@@ -119,7 +119,7 @@ git push
 - go to GitHub, repository you`ve created
 - push `Add File` dropdown button
 - choose `Create new file`
-![Commit button](/C:/QA/KSENDZOV/HomeWorks/GITHUB/TXT/edit_picture4.jpg)
+![Commit button](https://github.com/Olga-Ivasenko/TXT/blob/394eeeac64ecadce6d2e6429a54dd567b9f39f9a/edit_picture4.jpg)
 - name your file "bug-report.txt"
 
 **15. Сделать Commit changes (сохранить) изменения на веб интерфейсе**
@@ -127,13 +127,13 @@ git push
 - enter \{} to the edit field of the file
 - choose `Preview` tab
 - push `Commit your file` button
-![Commit button](/C:/QA/KSENDZOV/HomeWorks/GITHUB/TXT/edit_picture3.jpg)
+![Commit button](https://github.com/Olga-Ivasenko/TXT/blob/394eeeac64ecadce6d2e6429a54dd567b9f39f9a/edit_picture3.jpg)
 
 **16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT**
 - go to main branch of repository
 - step on your file "bug-report.txt"
 - choose `edit` pictogram
-![how to find Edit](/C:/QA/KSENDZOV/HomeWorks/GITHUB/TXT/edit_picture1.jpg)
+![how to find Edit](https://github.com/Olga-Ivasenko/TXT/blob/394eeeac64ecadce6d2e6429a54dd567b9f39f9a/edit_picture1.jpg)
 - enter txt data:
 [TXT data](https://github.com/Olga-Ivasenko/TXT/blob/e11e35974fadfdc16d29b4cc6f97b2ffcf9916ee/bug_report.txt)
 
@@ -141,13 +141,15 @@ git push
 - go down of edit file page
 - *optional*: add description
 - click `Commit changes` button
-![Commit button](/C:/QA/KSENDZOV/HomeWorks/GITHUB/TXT/edit_picture2.jpg)
+![Commit button](https://github.com/Olga-Ivasenko/TXT/blob/394eeeac64ecadce6d2e6429a54dd567b9f39f9a/edit_picture2.jpg)
 
 **18. Синхронизировать внешний и локальный репозиторий TXT**
 ```bash
-git fetch ---all
+cd TXT
+git pull
+git add .
 git status
-git merge
+git commite -m
 git push
 
 ```
