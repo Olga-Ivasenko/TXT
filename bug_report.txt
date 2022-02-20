@@ -1,0 +1,25 @@
+1. Date of creation: 19 FEB 2022
+2. ID: HW02002
+3. Author: Olga Ivasenko
+4. Assigned To: Vadim Ksendzov
+5. Bug Status: Assigned
+
+6. Title: Submit button on Login page is not clickable
+7. Severity: Critical 
+8. Priority: High
+9. Environment:
+	1) Resource: https:/xxx/yyy/zzz/
+	2) OS: Windows 10, 64
+	3) Browser: Chrome Version 98.0.4758.102
+
+10. App Version: v13.06
+11. Steps To Reproduce
+	1) open page https:/xxx/yyy/zzz/
+	2) step on [User email] field
+	3) enter email qwerty@gmail.com
+	4) step on [Password] field
+	5) enter Password 123456789
+	6) push [Submit] button
+
+12. Expected Result: [Submit] button changes color to dark green while clicking, main page of the site is opening
+13. Actual Result: [Submit] button is not clickable, main page of the site is not opening
