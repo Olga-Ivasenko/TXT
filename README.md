@@ -105,10 +105,7 @@ vim sklls.txt // or without touch but save before closing
 ```bash
 cd TXT
 git status
-git add skills.txt
-git add preferences.txt
-git status
-git commit -m "add two files" skills.txt preferences.txt
+git commit -am "add two files"
 ```
 
 **13. Отправить сразу 2 файла на внешний репозиторий**
@@ -147,10 +144,6 @@ git push
 ```bash
 cd TXT
 git pull
-git add .
-git status
-git commite -m
-git push
 
 ```
 
