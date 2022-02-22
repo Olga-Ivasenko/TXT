@@ -102,12 +102,18 @@ vim sklls.txt // or without touch but save before closing
 [txt data](https://github.com/Olga-Ivasenko/TXT/blob/9010f312e2b25c0f75aaa6b0a9bb2c1efeb8ed85/skills.txt)
 
 **12. Сделать коммит в одну строку**
+1) if all changed/added files from the list:
 ```bash
 cd TXT
 git status
 git commit -am "add two files"
 ```
-
+2) if choosen files from the list:
+```bash
+cd TXT
+git status
+git commit -am "add two files" skills.txt preferences.txt
+```
 **13. Отправить сразу 2 файла на внешний репозиторий**
 ```bash
 git push
